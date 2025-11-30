@@ -10,7 +10,6 @@
 			-moz-user-select:none;
 			-ms-user-select:none;
 			user-select:none;
-			zoom:reset;
 			}
 			#containernav {
 			width:90%;
@@ -1294,3 +1293,4 @@
 			max-height:2dvh;
 			}
 		}
+

@@ -124,7 +124,6 @@ body {
 	margin-top: 30px;
 	font-family: "Vazirmatn";
 	font-size: 12px;
-	letter-spacing: 4px;
 	color: var(--primary);
 	text-transform: uppercase;
 }
@@ -142,7 +141,7 @@ body {
 }
 .icon-menu {
 	margin-bottom:1dvh;
-	background-color:transparent;
+	background-image:linear-gradient(to top,) ;
 	border:1px solid #FCD54C;
 	width:30%;
 	height:8dvh;
@@ -189,9 +188,8 @@ body {
 	font-family: "Vazirmatn";
 	font-size: 52px;
 	font-weight: 600;
-	letter-spacing: 6px;
 	margin-bottom: 12px;
-	background: linear-gradient(135deg, black 0%, gray 50%, black 100%);
+	background: linear-gradient(135deg, #FFF899 25%, yellow 80%, #FFF899 25%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
@@ -199,7 +197,6 @@ body {
 
 .tagline {
 	font-size: 13px;
-	letter-spacing: 5px;
 	color: gray;
 	text-transform: uppercase;
 	font-weight: 300;
@@ -216,10 +213,10 @@ body {
 
 .menu-item {
 	height: 170px;
-	background: transparent;
+	background: rgba(219, 219, 219, 0.7);
 	backdrop-filter: blur(20px);
 	-webkit-backdrop-filter: blur(20px);
-	border: 2px solid gray;
+	border: 3px solid #FFF899;
 	border-radius: 24px;
 	display: flex;
 	flex-direction: column;
@@ -376,7 +373,6 @@ body {
 .menu-title {
 	font-size: 1rem;
 	font-weight: 400;
-	letter-spacing: 3px;
 	text-transform: uppercase;
 	color: black;
 	transition: all 0.3s ease;
@@ -384,7 +380,6 @@ body {
 
 .menu-item:hover .menu-title {
 	color: #ffffff;
-	letter-spacing: 4px;
 }
 
 /* Content Sections */
@@ -457,13 +452,11 @@ body {
 	font-family: "Vazirmatn";
 	font-size: 14px;
 	font-weight: 600;
-	letter-spacing: 2px;
 	color: var(--primary);
 }
 
 .small-brand p {
 	font-size: 9px;
-	letter-spacing: 1px;
 	color: rgba(255, 255, 255, 0.5);
 	margin-top: 2px;
 }
@@ -480,7 +473,6 @@ body {
 	color: black;
 	font-family: "Vazirmatn";
 	font-size: 13px;
-	letter-spacing: 2px;
 	cursor: pointer;
 	transition: all 0.3s ease;
 	z-index: 100;
@@ -513,7 +505,6 @@ body {
 .section-subtitle {
 	font-size: 14px;
 	color: gray;
-	letter-spacing: 2px;
 }
 
 /* Glass Cards */
@@ -568,7 +559,6 @@ body {
 	border: 1px solid rgba(0, 240, 255, 0.3);
 	border-radius: 50px;
 	font-size: 12px;
-	letter-spacing: 2px;
 	color: var(--primary);
 	margin-bottom: 25px;
 }
@@ -612,7 +602,6 @@ body {
 	font-family: 'Outfit', sans-serif;
 	font-size: 14px;
 	font-weight: 500;
-	letter-spacing: 1px;
 	cursor: pointer;
 	transition: all 0.3s ease;
 }
@@ -632,7 +621,6 @@ body {
 	font-family: 'Outfit', sans-serif;
 	font-size: 14px;
 	font-weight: 500;
-	letter-spacing: 1px;
 	cursor: pointer;
 	transition: all 0.3s ease;
 }
@@ -711,7 +699,6 @@ body {
 	font-size: 13px;
 	font-weight: 500;
 	color: white;
-	letter-spacing: 0.5px;
 }
 
 .card-1 {
@@ -817,7 +804,6 @@ body {
 	font-size: 13px;
 	color: #FFF899;
 	margin-top: 8px;
-	letter-spacing: 1px;
 }
 
 .metric-divider {
@@ -885,6 +871,41 @@ body {
 	color: gray;
 }
 
+.question {
+	align-content:center;
+	align-items:center;
+	background: rgba(219, 219, 219, 0.7);
+	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(20px);
+	border: 3px solid #FFF899;
+	padding-right:10%;
+	border-radius:7px;
+	padding-top:6px;
+	padding-bottom:6px;
+	font-size:16px;
+	margin-bottom:10px;
+	cursor:pointer;
+}
+
+.answer {
+	align-content:center;
+	align-items:center;
+	background: rgba(219, 219, 219, 0.7);
+	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(20px);
+	border: 3px solid #FFF899;
+	margin-bottom:15px;
+	padding-top:7px;
+	padding-bottom:7px;
+	border-radius:7px;
+	margin-top:-3px;
+	font-size:16px;
+	padding-right:5%;
+	padding-left:5%;
+	text-align:justify;
+}
+	
+
 /* Tech Stack */
 .intro-tech {
 	text-align: center;
@@ -892,7 +913,6 @@ body {
 
 .tech-label {
 	font-size: 12px;
-	letter-spacing: 3px;
 	color: rgba(255, 255, 255, 0.4);
 	text-transform: uppercase;
 	margin-bottom: 20px;
@@ -963,10 +983,10 @@ body {
 }
 
 .service-row {
-	background: rgba(168, 168, 168, 0.5);
+	background: rgba(186, 186, 186, 0.5);
 	backdrop-filter: blur(20px);
 	-webkit-backdrop-filter: blur(20px);
-	border: 1px solid var(--glass-border);
+	border: none;
 	border-radius: 20px;
 	padding: 20px;
 	display: flex;
@@ -994,21 +1014,24 @@ body {
 	top: 0;
 	bottom: 0;
 	width: 4px;
-	background: linear-gradient(180deg, var(--primary), var(--accent));
+	background: rgba(186, 186, 186, 0.7);
 	border-radius: 20px 0 0 20px;
 	opacity: 0;
 	transition: opacity 0.3s ease;
+	border: 2px solid #FFF899;
 }
 
 .service-row:hover {
 	transform: translateY(-5px);
-	background: rgba(255, 255, 255, 0.05);
+	background: rgba(186, 186, 186, 0.7);
 	border-color: #FFF899;
 	box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+	border: 2px solid #FFF899;
 }
 
 .service-row:hover::after {
-	opacity: 1;
+	background: rgba(186, 186, 186, 0.7);
+	border: 2px solid #FFF899;
 }
 
 .service-row-icon {
@@ -1048,17 +1071,19 @@ body {
 }
 
 .service-row-content h4 {
-	font-family: 'Syne', sans-serif;
+	font-family: "Vazirmatn";
 	font-size: 18px;
 	font-weight: 500;
 	margin-bottom: 8px;
-	color: var(--primary);
+	color: #FFF899;
+	text-align:justify;
 }
 
 .service-row-content p {
 	font-size: 13px;
-	color: rgba(255, 255, 255, 0.6);
+	color: white;
 	line-height: 1.6;
+	text-align:justify;
 }
 
 .service-row-arrow {
@@ -1089,7 +1114,6 @@ body {
 	color: rgba(255, 255, 255, 0.6);
 	font-family: "Vazirmatn";
 	font-size: 13px;
-	letter-spacing: 1px;
 	cursor: pointer;
 	transition: all 0.3s ease;
 	position: relative;
@@ -1222,7 +1246,6 @@ body {
 	color: black;
 	font-family: "Vazirmatn";
 	font-size: 12px;
-	letter-spacing: 1px;
 	cursor: pointer;
 	transition: all 0.3s ease;
 	width:15%;
@@ -1359,6 +1382,7 @@ body {
 	color: gray;
 	line-height: 1.8;
 	margin-bottom: 15px;
+	text-align:justify;
 }
 
 .about-text a {
@@ -1468,7 +1492,6 @@ body {
 	font-family: 'Syne', sans-serif;
 	font-size: 14px;
 	font-weight: 600;
-	letter-spacing: 2px;
 	cursor: pointer;
 	transition: all 0.3s ease;
 	position: relative;
@@ -1598,7 +1621,6 @@ body {
 .footer p {
 	font-size: 12px;
 	color: gray;
-	letter-spacing: 1px;
 }
 
 .footer a {
@@ -1674,7 +1696,6 @@ body {
 @media (max-width: 768px) {
 	.brand-name {
 		font-size: 36px;
-		letter-spacing: 4px;
 	}
 
 	.menu-grid {
@@ -1776,12 +1797,10 @@ body {
 
 	.brand-name {
 		font-size: 28px;
-		letter-spacing: 3px;
 	}
 
 	.tagline {
 		font-size: 10px;
-		letter-spacing: 3px;
 	}
 
 	.menu-grid {
@@ -1801,7 +1820,6 @@ body {
 
 	.menu-title {
 		font-size: 10px;
-		letter-spacing: 2px;
 	}
 
 	.intro-headline {
@@ -1866,19 +1884,19 @@ body {
 		height:3.5dvh;
 		text-align:center;
 		margin-bottom:40px;
-		font-size:9px;
+		font-size:8.5px;
 		padding:0 0;
-		padding-right:2%;
-		padding-left:2%;
-		padding-top:7px;
-		padding-bottom:7px;
+		padding-right:5%;
+		padding-left:5%;
+		padding-top:10px;
+		padding-bottom:10px;
+		margin-top:3px;
 	}
 
 	.footer p {
 		font-size:8px;
 	}
 }
-
 
 
 

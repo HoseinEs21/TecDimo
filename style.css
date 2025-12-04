@@ -1863,18 +1863,20 @@ body {
 	}
 	
 	.back-btn {
-		height:2dvh;
+		height:3dvh;
 		align-content:center;
 		text-align:center;
 		align-items:center;
-		padding-top:-1dvh;
+		padding-top:-2dvh;
 		margin-bottom:40px;
+		font-size:9px;
 	}
 
 	.footer p {
 		font-size:8px;
 	}
 }
+
 
 
 

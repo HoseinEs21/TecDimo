@@ -1867,12 +1867,15 @@ body {
 		align-content:center;
 		text-align:center;
 		align-items:center;
+		padding-top:-1dvh;
+		margin-bottom:40px;
 	}
 
 	.footer p {
 		font-size:8px;
 	}
 }
+
 
 
 

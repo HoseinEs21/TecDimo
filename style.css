@@ -1863,11 +1863,8 @@ body {
 	}
 	
 	.back-btn {
-		height:3dvh;
-		align-content:center;
+		height:3.5dvh;
 		text-align:center;
-		align-items:center;
-		padding-top:-2dvh;
 		margin-bottom:40px;
 		font-size:9px;
 	}
@@ -1876,6 +1873,7 @@ body {
 		font-size:8px;
 	}
 }
+
 
 
 

@@ -1,3 +1,11 @@
+@charset "utf-8";
+/* CSS Document 
+
+TemplateMo 603 Nexaverse
+
+https://templatemo.com/tm-603-nexaverse
+
+*/
 
 * {
 	margin: 0;
@@ -874,7 +882,7 @@ body {
 .value-card p {
 	font-size: 14px;
 	line-height: 1.7;
-	color: rgba(255, 255, 255, 0.6);
+	color: gray;
 }
 
 /* Tech Stack */
@@ -1857,4 +1865,3 @@ body {
 		margin-top:-8.75dvh;
 	}
 }
-

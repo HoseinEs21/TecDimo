@@ -1863,8 +1863,10 @@ body {
 	}
 	
 	.back-btn {
-		height:6dvh;
+		height:3dvh;
+		font-size:8px;
 	}
 }
+
 
 

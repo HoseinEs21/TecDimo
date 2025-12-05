@@ -230,6 +230,17 @@ body {
 	transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
+.id-shop {
+	color: #2787F5;
+}
+
+.id-shop:hover {
+	color: #0065CF;
+	text-decoration:underline;
+	transition:0.4s;
+}
+	
+
 /* Glossy effect overlay */
 .menu-item::before {
 	content: '';

@@ -547,7 +547,22 @@ body {
 	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
-/* ===== NEW INTRODUCTION SECTION STYLES ===== */
+.off {
+	background-color:#F54927;
+	width:20%;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align:center;
+	align-content:center;
+	color:white;
+	height:40px;
+	font-size:18px;
+	padding-right:5%;
+	padding-left:5%;
+	border-radius:20px;
+	margin-bottom:235px;
+	margin-right:84%;
+}
 
 /* Hero Banner */
 .intro-hero {
